@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Contact | BLUEY</title>
+  <meta name="description" content="Get in touch with BLUEY - UI/UX Designer and Frontend Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+<div id="toast">// Email copied to clipboard</div>
+
+<!-- HEADER -->
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-avatar">B</div>
+      <span>BLUEY</span>
+    </a>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <a href="stack.html">Stack</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn-hire nav-active-btn">
+        Get in touch
+        <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8 H13 M9 4 L13 8 L9 12"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- CONTACT HERO -->
+<section class="contact-page-section">
+  <div class="contact-page-inner">
+
+    <div class="contact-text-side reveal">
+      <p class="page-eyebrow" style="justify-content:flex-start;">// get in touch</p>
+      <h1 class="contact-heading" style="text-align:left;font-size:clamp(2.8rem,7vw,5.5rem);">
+        Got something<br />in mind? <span>Let's talk.</span>
+      </h1>
+      <p class="contact-sub" style="text-align:left;max-width:44ch;margin:0 0 40px;">
+        I'm available for design projects, frontend work, freelance collabs, or just a good conversation about building stuff.
+      </p>
+
+      <!-- Email card -->
+      <div class="contact-card">
+        <p class="contact-card-label">// primary contact</p>
+        <p class="contact-email-display">oginnikayode05@gmail.com</p>
+        <div class="contact-card-actions">
+          <button class="contact-email-btn" id="copy-email" onclick="copyEmail()">
+            <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="12" height="9" rx="1.5"/><path d="M2 4 L8 9 L14 4"/></svg>
+            <span id="email-btn-text">Copy email</span>
+          </button>
+          <a href="mailto:oginnikayode05@gmail.com" class="btn-secondary" style="font-size:0.85rem;padding:10px 20px;">
+            Open mail app
+            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg>
+          </a>
+        </div>
+        <p class="copy-feedback" id="copy-feedback">// Copied! Reach out anytime.</p>
+      </div>
+
+      <!-- What I'm looking for -->
+      <div class="contact-looking">
+        <p class="contact-looking-label">// I'm open to</p>
+        <div class="contact-looking-tags">
+          <span class="looking-tag">UI/UX Design projects</span>
+          <span class="looking-tag">Frontend contracts</span>
+          <span class="looking-tag">Fullstack collabs</span>
+          <span class="looking-tag">Freelance work</span>
+          <span class="looking-tag">Full-time roles</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side: social links + quick facts -->
+    <div class="contact-side-col reveal reveal-delay-2">
+      <div class="contact-side-card">
+        <p class="contact-card-label">// find me online</p>
+        <div class="social-links">
+          <a href="https://github.com/garriiii" target="_blank" rel="noopener" class="social-link">
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" width="20" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </span>
+            <span class="social-text">
+              <span class="social-name">GitHub</span>
+              <span class="social-handle">@garriiii</span>
+            </span>
+            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-arrow"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg>
+          </a>
+          <a href="https://x.com/https_bluey_sol" target="_blank" rel="noopener" class="social-link">
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" width="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </span>
+            <span class="social-text">
+              <span class="social-name">Twitter / X</span>
+              <span class="social-handle">@https_bluey_sol</span>
+            </span>
+            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-arrow"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-side-card">
+        <p class="contact-card-label">// availability</p>
+        <div class="avail-row">
+          <span class="status-dot" style="display:inline-block;"></span>
+          <p style="font-family:var(--font-mono);font-size:0.85rem;color:var(--text-primary);">Currently open to new work</p>
+        </div>
+        <p style="font-family:var(--font-mono);font-size:0.78rem;color:var(--text-secondary);margin-top:8px;line-height:1.6;">Usually responds within 24 hours. Preferred contact: email.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <p class="footer-copy">&copy; 2024 BLUEY. Designed &amp; built by me.</p>
+    <div class="footer-links">
+      <a href="https://github.com/garriiii" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/https_bluey_sol" target="_blank" rel="noopener">Twitter / X</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

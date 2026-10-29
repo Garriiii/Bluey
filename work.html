@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Work | BLUEY</title>
+  <meta name="description" content="Selected projects by BLUEY - UI/UX Designer and Frontend Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+<div id="toast">// Email copied to clipboard</div>
+
+<!-- HEADER -->
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-avatar">B</div>
+      <span>BLUEY</span>
+    </a>
+    <nav class="nav-links">
+      <a href="work.html" class="nav-active">Work</a>
+      <a href="stack.html">Stack</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn-hire">
+        Get in touch
+        <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8 H13 M9 4 L13 8 L9 12"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="page-eyebrow">// selected work</p>
+    <h1 class="page-title">Projects that<br/><span class="text-cyan">shipped.</span></h1>
+    <p class="page-sub">A mix of design and development work &mdash; from UI/UX case studies to live frontends.</p>
+  </div>
+</section>
+
+<!-- WORK GRID -->
+<section id="work" class="work-page-section">
+  <div class="projects-stack">
+
+    <!-- Card 1 -->
+    <article class="project-card card--cyan reveal">
+      <div class="card-tab-row"><span class="card-tab" style="background:var(--cyan-500);color:var(--navy-900);">01 &middot; NexBoard</span></div>
+      <div class="card-body">
+        <div class="card-content">
+          <span class="card-label"><span class="card-label-dot" style="background:var(--cyan-400);"></span>UI/UX Design &middot; Frontend Dev</span>
+          <h2 class="card-heading">A dashboard built for clarity at scale</h2>
+          <p class="card-desc">Designed the full UX flow and built the frontend. Real-time analytics, clean layout, zero confusion.</p>
+          <span class="card-cta-link">View project <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg></span>
+          <dl class="card-stats">
+            <div class="stat-chip"><strong>React</strong><span> + TypeScript</span></div>
+            <div class="stat-chip"><strong>Figma</strong></div>
+            <div class="stat-chip"><strong>Recharts</strong></div>
+          </dl>
+        </div>
+        <div class="card-image-wrap">
+          <span class="card-tape card-tape-1"></span>
+          <span class="card-tape card-tape-2"></span>
+          <div class="card-img-frame"><img src="project_nexboard.jpg" alt="NexBoard dashboard UI" loading="lazy"/></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="project-card card--indigo reveal reveal-delay-1">
+      <div class="card-tab-row"><span class="card-tab" style="background:#7b5cff;color:#fff;margin-left:5%;">02 &middot; VaultUI</span></div>
+      <div class="card-body">
+        <div class="card-content">
+          <span class="card-label"><span class="card-label-dot" style="background:#a78bff;"></span>Design System &middot; Component Library</span>
+          <h2 class="card-heading">A design system built to ship faster</h2>
+          <p class="card-desc">Designed and documented 50+ reusable components in Figma and built them in React with Storybook.</p>
+          <span class="card-cta-link" style="color:#a78bff;border-color:#a78bff;">View project <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg></span>
+          <dl class="card-stats">
+            <div class="stat-chip"><strong>50+</strong><span> components</span></div>
+            <div class="stat-chip"><strong>Storybook</strong></div>
+            <div class="stat-chip"><strong>Figma</strong></div>
+          </dl>
+        </div>
+        <div class="card-image-wrap">
+          <span class="card-tape card-tape-1"></span>
+          <span class="card-tape card-tape-2"></span>
+          <div class="card-img-frame"><img src="project_vaultui.jpg" alt="VaultUI component library" loading="lazy"/></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="project-card card--emerald reveal reveal-delay-2">
+      <div class="card-tab-row"><span class="card-tab" style="background:#00c878;color:#031208;margin-left:10%;">03 &middot; Waveform</span></div>
+      <div class="card-body">
+        <div class="card-content">
+          <span class="card-label"><span class="card-label-dot" style="background:#00c878;"></span>UI Design &middot; Frontend Dev</span>
+          <h2 class="card-heading">Streaming music with a soul</h2>
+          <p class="card-desc">Full UI/UX design in Figma then built with Next.js. Smooth waveform visualiser using the Web Audio API.</p>
+          <span class="card-cta-link" style="color:#00c878;border-color:#00c878;">View project <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L12 4 M6 4 H12 V10"/></svg></span>
+          <dl class="card-stats">
+            <div class="stat-chip"><strong>Next.js</strong></div>
+            <div class="stat-chip"><strong>Web Audio API</strong></div>
+            <div class="stat-chip"><strong>Figma</strong></div>
+          </dl>
+        </div>
+        <div class="card-image-wrap">
+          <span class="card-tape card-tape-1"></span>
+          <span class="card-tape card-tape-2"></span>
+          <div class="card-img-frame"><img src="project_waveform.jpg" alt="Waveform music app" loading="lazy"/></div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <p class="footer-copy">&copy; 2024 BLUEY. Designed &amp; built by me.</p>
+    <div class="footer-links">
+      <a href="https://github.com/garriiii" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/https_bluey_sol" target="_blank" rel="noopener">Twitter / X</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
