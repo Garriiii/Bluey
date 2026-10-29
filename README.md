@@ -1,31 +1,46 @@
-﻿# BLUEY - Designer & Developer Portfolio
+# BLUEY - Designer & Developer Portfolio
 
-> Personal portfolio for **BLUEY** â€” UI/UX Designer (3+ years Figma experience) & Frontend Developer expanding into Backend.
+> Personal portfolio for **BLUEY** — UI/UX Designer (3+ years Figma experience) & Frontend Developer expanding into Backend.
 
-## ðŸš€ Live Demo
-- **GitHub Pages**: [https://garriiii.github.io](https://garriiii.github.io)
+## 🚀 Live Demo
+- **GitHub Pages**: [https://garriiii.github.io/Bluey/](https://garriiii.github.io/Bluey/)
 
-## ðŸ› ï¸ Stack & Tools
-- **Design**: Figma (3 yrs Â· Expert), Prototyping, Design Systems, User Research
+## 🛠️ Stack & Tools
+- **Design**: Figma (3 yrs · Expert), Prototyping, Design Systems, User Research
 - **Frontend**: React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3, JavaScript
 - **Backend (In Progress)**: Node.js, PostgreSQL, REST APIs
 - **Environment**: VS Code, Antigravity AI IDE, Safari & Chrome
 
-## ðŸ“ Project Structure
+## 📁 Project Structure
 ```
-â”œâ”€â”€ index.html       # Hero, interactive chips, role pills
-â”œâ”€â”€ work.html        # Featured case studies & client projects
-â”œâ”€â”€ stack.html       # Complete toolkit & environment
-â”œâ”€â”€ about.html       # Bio, experience, design & dev values
-â”œâ”€â”€ contact.html     # Contact form, direct email & social links
-â”œâ”€â”€ style.css        # Custom design system (Deep Navy & Electric Cyan)
-â””â”€â”€ main.js          # Custom cursor, chip physics, magnetic interactions
+├── index.html       # Hero, interactive chips, role pills
+├── work.html        # Interactive case studies with browser preview modal
+├── stack.html       # Complete toolkit & environment
+├── about.html       # Bio, profile picture, values, CYBER DODGER arcade game
+├── contact.html     # Contact cards, direct email & social links
+├── style.css        # Custom design system (Deep Navy & Electric Cyan)
+├── main.js          # Custom cursor, game engine, preview modal, animations
+├── assets/          # Profile photo
+└── *.jpg            # High-resolution project showcase assets
 ```
 
-## ðŸ“¬ Contact
+## 🎮 Mini Game (CYBER TIC-TAC-TOE)
+Located on the [About](about.html) page:
+- **Quote**: *"Play a little while you're here."*
+- **Modes**: 🤖 vs BLUEY AI (Casual, Smart, 😈 Ragebait) & 👥 2-Player Pass & Play
+- **Ragebait Difficulty (tictactoe.gripe style)**: AI psychological honeypot — baits you into getting 2-in-a-row with winning spot wide open, then turns your winning click into an O, gaslights you in real-time, and delivers *"life is not fair, deal with it lol"*
+- **Features**: Procedural Web Audio SFX, glitch/erase animations, persistent scoreboard (saved in `localStorage`)
+
+## 🖼️ Adding Unreleased Projects
+1. Drop screenshots or mockups into the root directory.
+2. Open `work.html` and edit or duplicate a `<article class="project-card">` block.
+3. Update `data-title`, `data-url`, `data-img`, `data-stack`, and `data-features` to match your project.
+4. Clicking "View interactive preview" will launch the browser preview modal automatically!
+
+## 📬 Contact
 - **Email**: [oginnikayode05@gmail.com](mailto:oginnikayode05@gmail.com)
 - **Twitter / X**: [@https_bluey_sol](https://x.com/https_bluey_sol)
 - **GitHub**: [@garriiii](https://github.com/garriiii)
 
 ---
-Â© 2024 BLUEY. Designed & built by BLUEY.
+© 2024 BLUEY. Designed & built by BLUEY.
